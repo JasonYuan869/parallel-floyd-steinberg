@@ -1,0 +1,13 @@
+[package]
+name = "floyd-steinberg-parallel-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+crossbeam = "0.8.4"
+image = "0.25.1"
+kd-tree = "0.6.0"
+parking_lot = "0.12.3"
+rayon = "1.10.0"
+typenum = "1.17.0"
